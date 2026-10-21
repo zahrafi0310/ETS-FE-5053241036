@@ -18,4 +18,4 @@
 - [ ] Change request
 
 ## Yang belum selesai
-(Tulis jujur bagian mana yang belum berjalan.)
+hanya F1 - F3 yang saya kerjakan, AI-log belum lengkap dan sepertinya readme juga belum lengkap
