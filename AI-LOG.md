@@ -5,9 +5,9 @@ Catat setiap penggunaan AI yang menghasilkan kode. Jika tidak memakai AI sama se
 Log yang jujur tidak mengurangi nilai, sebanyak apa pun AI dipakai. Yang mengurangi nilai adalah log yang tidak sesuai dengan kode, atau isi log yang tidak bisa kamu jelaskan.
 
 ## (Nama fitur atau komponen, misalnya: Penanganan error 409 di form peminjaman, F5)
-- Prompt: (ringkas, apa yang kamu minta)
-- Dipakai: (bagian kode yang kamu ambil, misalnya nama komponen/fungsi dan file)
-- Diubah: (apa yang kamu ubah atau perbaiki dari hasil AI, dan kenapa)
+- Prompt: minta AI untuk mempelajari dokumen Requirement dan Kartu Persona, lalu memberi tahapan kode F1 step by step sesuai aturan tanpa asumsi tambahan
+- Dipakai: src/types.ts (Jenis, SumberDaya, SumberDayaInput), src/api/sumberDayaApi.ts (getSumberDaya, createSumberDaya), SumberDayaForm.tsx, SumberDayaList.tsx, dan App.tsx versi F1
+- Diubah: Nama file API dari pinjam.ts (saran AI) jadi sumberDayaApi.ts, lalu path import saya sesuaikan
 
 ## (Entri berikutnya)
 - Prompt:

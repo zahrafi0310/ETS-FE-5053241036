@@ -1,5 +1,5 @@
 import type { SumberDaya, SumberDayaInput } from '../types'
-const BASE_URL = 'http://localhost:8080'
+export const BASE_URL = 'http://localhost:8080'
 
 export async function getSumberDaya(): Promise<SumberDaya[]> {
   const res = await fetch(`${BASE_URL}/sumber-daya`)
